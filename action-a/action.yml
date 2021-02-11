@@ -7,6 +7,6 @@ inputs:
     description: "Quem vai receber olá"
     required: true
     default: "world"
-  runs:
-    using: "docker"
-    image: "Dockerfile"
+runs:
+  using: "docker"
+  image: "Dockerfile"
